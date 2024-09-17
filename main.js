@@ -1,6 +1,7 @@
 import { isPalindrome } from './problems/palindromeNumber.js';
 import {twoSumWithTarget} from './problems/twoSumWithTarget.js';
 import {reverseArray} from './problems/reverseArray.js';
+import {leftRotateArrBykelement} from './problems/leftRotateArrBykElement.js';
 import { averageWaitingTime } from './problems/leetcodeProblems/averageWaitingTime.js';
 
 // Check if given number is Palindrome or not.
@@ -30,5 +31,8 @@ const customers2 = [
 ];
 console.log('averageWaitingTime:', averageWaitingTime(customers));
 
-const arr = [1,4,3,2];
+const arr = [1,2,3,4,5,6,7];
 console.log('reverseArray/:', reverseArray(arr));
+
+const k = 3;
+console.log(leftRotateArrBykelement(arr, k));
