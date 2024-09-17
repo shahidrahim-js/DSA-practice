@@ -1,4 +1,4 @@
-export const leftRotateArrBykelement = function(nums, k) {
+export const leftRotateArrBykElement = function(nums, k) {
     const n = nums.length;
     k %= nums.length;
     
